@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Dimas J. Taniawan",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",

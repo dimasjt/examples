@@ -5,7 +5,7 @@ import WebpackHtmlPlugin from 'html-webpack-plugin';
 const webpackConfig = {
   entry: [
     'babel-polyfill',
-    './index.js',
+    './src/index.js',
   ],
   output: {
     path: __dirname + 'dist',
